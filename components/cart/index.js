@@ -28,7 +28,7 @@ function Cart() {
         <hr />
         <CardBody style={{ padding: 10 }}>
           <div style={{ marginBottom: 6 }}>
-            <small>料理:</small>
+            <small>商品:</small>
           </div>
           <div>
             {cart.items
@@ -71,7 +71,7 @@ function Cart() {
                             -
                           </Button>
                           <span style={{ marginLeft: 5 }} id="item-quantity">
-                            {item.quantity}x
+                            {item.quantity}点
                           </span>
                         </div>
                       </div>
@@ -84,7 +84,7 @@ function Cart() {
                 <div>
                   <Badge style={{ width: 200, padding: 10 }} color="light">
                     <h5 style={{ fontWeight: 100, color: "gray" }}>合計:</h5>
-                    <h3>¥{appContext.cart.total.toFixed(2)}</h3>
+                    <h3>¥{appContext.cart.total}</h3>
                   </Badge>
                   {router.pathname === "/restaurants" && (
                     <div

@@ -3,7 +3,7 @@ import { Button, Alert, InputGroupText } from "reactstrap";
 import { Col, Input, InputGroup, Row } from "reactstrap";
 import RestaurantList from "../components/RestaurantsList";
 
-const Home = () => {
+const Home = ({ restaurants, error }) => {
   const [query, setQuery] = useState("");
   return (
     <div className="container-fluid">

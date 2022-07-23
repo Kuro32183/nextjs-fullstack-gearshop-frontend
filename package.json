@@ -19,7 +19,7 @@
         "@stripe/stripe-js": "^1.32.0",
         "apollo-boost": "^0.4.7",
         "apollo-link-http": "^1.5.17",
-        "axios": "^0.19.2",
+        "axios": "^0.27.2",
         "graphql": "^15.0.0",
         "isomorphic-fetch": "^2.2.1",
         "js-cookie": "^2.2.1",

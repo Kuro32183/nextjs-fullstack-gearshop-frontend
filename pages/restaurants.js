@@ -104,6 +104,6 @@ function Restaurants() {
       </>
     );
   }
-  return <h1>Add Dishes</h1>;
+  return <h1>Add Shop</h1>;
 }
 export default Restaurants;
