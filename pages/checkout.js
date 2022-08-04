@@ -6,7 +6,7 @@ import { loadStripe } from "@stripe/stripe-js";
 
 const checkout = () => {
   const stripePromise = loadStripe(
-    "pk_test_51LLi3xAbW82mcIShzrvfH12vP2gZMW5SDJ2O32O4fK3MK4Lk5BOuGMclWBI7WX3tWAsMmNNmQlRQ6Ocd7PPi5mp800iG9BBUiy"
+    "pk_test_51LJuftHEcgKtOJDH7eWZ05s626889JsDwt9oGnKKZXQErWIjPz7R7U2l9ORgdGoE5w86BsZxLItnBQTXjWHk4Std00vOAWQiYB"
   );
   return (
     <Row>
