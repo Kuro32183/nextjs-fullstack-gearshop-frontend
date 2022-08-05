@@ -1,7 +1,7 @@
 import { Col, Row } from "reactstrap";
 import { Elements } from "@stripe/react-stripe-js";
 import Cart from "../components/cart";
-import CheckOutForm from "../components/checkout/CheckoutForm";
+import CheckOutForm from "../components/checkout/CheckOutForm";
 import { loadStripe } from "@stripe/stripe-js";
 
 const checkout = () => {
