@@ -5,7 +5,7 @@ import { FormGroup, Label, Input } from "reactstrap";
 import AppContext from "../../context/AppContext";
 import CardSection from "./CardSection";
 
-const CheckoutForm = () => {
+const CheckOutForm = () => {
   const [data, setData] = useState({
     address: "",
     stripe_id: "",
@@ -180,4 +180,4 @@ const CheckoutForm = () => {
   );
 };
 
-export default CheckoutForm;
+export default CheckOutForm;
