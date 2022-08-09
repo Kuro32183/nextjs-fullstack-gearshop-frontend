@@ -48,7 +48,7 @@ function Restaurants() {
     const { restaurant } = data;
     return (
       <>
-        <h1>{restaurant.name}</h1>
+        <h1 style={{ margin: "10px 10px" }}>{restaurant.name}</h1>
         <Row>
           {restaurant.dishes.map((res) => (
             <Col xs="6" sm="4" style={{ padding: 0 }} key={res.id}>

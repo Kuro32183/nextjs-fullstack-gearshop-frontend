@@ -11,7 +11,7 @@ const Home = ({ restaurants, error }) => {
         <Col>
           <div className="search">
             <InputGroup>
-              <InputGroupText addonType="append"> Search </InputGroupText>
+              <InputGroupText addonType="append"> 検索 </InputGroupText>
               <Input
                 onChange={(e) => setQuery(e.target.value.toLocaleLowerCase())}
                 value={query}

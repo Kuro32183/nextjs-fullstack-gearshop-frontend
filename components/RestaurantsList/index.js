@@ -29,7 +29,7 @@ const query = gql`
 const RestaurantList = (props) => {
   const { loading, error, data } = useQuery(query);
 
-  if (error) return "レストランの読み込みに失敗しました";
+  if (error) return "読み込みに失敗しました";
 
   if (loading === true) {
     return <span>Loading...</span>;
@@ -85,7 +85,7 @@ const RestaurantList = (props) => {
       </Row>
     );
   } else {
-    return <h1>レストランが見つからない</h1>;
+    return <h1>お店が見つからない</h1>;
   }
 };
 export default RestaurantList;

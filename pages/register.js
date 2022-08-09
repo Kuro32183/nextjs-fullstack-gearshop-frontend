@@ -24,7 +24,7 @@ const register = () => {
         <Col>
           <div className="paper">
             <div className="header">
-              <h2> Udemyフードデリバリー</h2>
+              <h2>ユーザー登録</h2>
             </div>
           </div>
           <section className="wrapper">

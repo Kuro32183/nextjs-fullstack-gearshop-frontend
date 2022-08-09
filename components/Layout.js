@@ -11,7 +11,7 @@ const Layout = (props) => {
   return (
     <div>
       <Head>
-        <title>フードデリバリー</title>
+        <title>Retro Gear Shop</title>
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"

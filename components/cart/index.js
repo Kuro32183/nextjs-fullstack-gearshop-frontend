@@ -108,13 +108,13 @@ function Cart() {
                       style={{ color: "blue" }}
                       onClick={() => window.history.back()}
                     >
-                      back to restaurant
+                      店舗一覧へ戻る
                     </small>
                   )}
                 </>
               )
             ) : (
-              <h5>Login to Order</h5>
+              <h5>ログインしていません。</h5>
             )}
           </div>
           {console.log(router.pathname)}
