@@ -1,0 +1,1 @@
+# nextjs-fullstack-gearshop-frontend
