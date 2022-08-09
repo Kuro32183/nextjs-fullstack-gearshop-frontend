@@ -1,7 +1,8 @@
 # nextjs-fullstack-gearshop-frontend
 
 ## Overview
-An interactive website sample where textures fall on click events.
+A full-stack shopping site with login, registration and cart, payment system.
+Next.js is used for the front end, Stripe is used for the back end API, and Stripe is used for the payment system.
 
 ## Description
 Matter.js is a JavaScript 2D physics engine library that can be implemented on the Web.
