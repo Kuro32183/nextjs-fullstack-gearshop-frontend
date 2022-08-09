@@ -61,6 +61,7 @@ function Restaurants() {
                 <CardBody>
                   <CardTitle>{res.name}</CardTitle>
                   <CardText>{res.description}</CardText>
+                  <CardText>¥{res.price}</CardText>
                 </CardBody>
                 <div className="card-footer">
                   <Button
